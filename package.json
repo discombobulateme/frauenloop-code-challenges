@@ -1,0 +1,20 @@
+{
+  "name": "frauenloop-code-challenges",
+  "version": "1.0.0",
+  "description": "A repo to exchange FrauenLoop Autumn 2021 cycle - we-projects group",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discombobulateme/frauenloop-code-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/discombobulateme/frauenloop-code-challenges/issues"
+  },
+  "homepage": "https://github.com/discombobulateme/frauenloop-code-challenges#readme"
+}
