@@ -27,11 +27,13 @@ function mergeExclusive(array1, array2) {
 }
 */
 
-/*
-// function expression
+
+// function expression with function inside filter method as function definition
 const mergeExclusive = function (array1, array2) {
   let exclusiveA = array1.filter(
-    (index) => !array2.some((index2) => index === index2)
+    function( index ) {
+      return !array2.some( ( index2 ) => index === index2 )
+    }
   );
   let exclusiveB = array2.filter(
     (index) => !array1.some((index2) => index === index2)
@@ -40,9 +42,9 @@ const mergeExclusive = function (array1, array2) {
   console.log(result);
   return result;
 }
-*/
 
 
+/*
 // arrow function
 const mergeExclusive = (array1, array2) => {
   let exclusiveA = array1.filter(
@@ -55,7 +57,7 @@ const mergeExclusive = (array1, array2) => {
   console.log(result);
   return result;
 }
-
+*/
 
 
 mergeExclusive(ar1, ar2);
